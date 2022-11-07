@@ -61,6 +61,7 @@ non_uniform_axis = False
 
 
 _logger = logging.getLogger(__name__)
+_logger.setLevel(logging.INFO)
 
 warn_once = True
 
