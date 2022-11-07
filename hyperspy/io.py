@@ -29,7 +29,9 @@ from pathlib import Path
 from collections.abc import MutableMapping
 from datetime import datetime
 
-from hyperspy import __version__ as hs_version
+# from hyperspy import __version__ as hs_version
+hs_version='1.8.0.dev0'
+
 from hyperspy.drawing.marker import markers_metadata_dict_to_markers
 from hyperspy.exceptions import VisibleDeprecationWarning
 from hyperspy.misc.io.tools import ensure_directory
